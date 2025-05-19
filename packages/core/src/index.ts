@@ -11,10 +11,8 @@ export const toOpenAPISchema = async (
     case "arktype":
     case "effect":
     case "valibot":
-      mod = import("./default.js");
-      break;
     case "zod":
-      mod = import("./zod.js");
+      mod = import("./default.js");
       break;
     default:
       throw new Error(
