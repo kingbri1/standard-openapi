@@ -1,6 +1,6 @@
 {
-  "name": "@standard-community/standard-openapi",
-  "version": "0.1.1",
+  "name": "@kingbri1/standard-openapi",
+  "version": "0.1.2-pre1",
   "type": "module",
   "license": "MIT",
   "main": "dist/index.cjs",
@@ -26,7 +26,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/standard-community/standard-openapi.git",
+    "url": "git+https://github.com/kingbri1/standard-openapi.git",
     "directory": "packages/core"
   },
   "bugs": {
