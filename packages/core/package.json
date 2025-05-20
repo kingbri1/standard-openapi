@@ -1,6 +1,6 @@
 {
   "name": "@kingbri1/standard-openapi",
-  "version": "0.1.2-pre3",
+  "version": "0.1.2-pre4",
   "type": "module",
   "license": "MIT",
   "main": "dist/index.cjs",
@@ -51,7 +51,7 @@
     "zod-openapi": {
       "optional": true
     },
-    "@standard-community/standard-json": {
+    "@kingbri1/standard-json": {
       "optional": true
     },
     "json-schema-walker": {
