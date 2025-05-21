@@ -6,6 +6,7 @@ export const toOpenAPISchema = async (
 ) => {
   const vendor = schema["~standard"].vendor;
 
+  // Keep this switch if there are any other libraries
   let mod: Handler;
   switch (vendor) {
     case "arktype":
