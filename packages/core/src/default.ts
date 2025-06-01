@@ -1,6 +1,6 @@
 import convert from "./convertor.js";
 import type { GeneratorFn } from "./types.js";
-import { toJsonSchema } from "@standard-community/standard-json";
+import { toJsonSchema } from "@kingbri1/standard-json";
 
 export const generator: GeneratorFn = async (schema) => {
   const jsonSchema = await toJsonSchema(schema);
