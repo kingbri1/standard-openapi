@@ -42,17 +42,9 @@
       "default": "./dist/index.cjs"
     }
   },
-  "peerDependencies": {
-    "@kingbri1/standard-json": "latest",
+  "dependencies": {
+    "@kingbri1/standard-json": "^0.2.1",
     "json-schema-walker": "^2.0.0"
-  },
-  "peerDependenciesMeta": {
-    "@standard-community/standard-json": {
-      "optional": true
-    },
-    "json-schema-walker": {
-      "optional": true
-    }
   },
   "devDependencies": {
     "@apidevtools/json-schema-ref-parser": "^11.9.3",
